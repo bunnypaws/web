@@ -1,0 +1,6 @@
+.link:hover {
+	background-image: var(--squiggle-svg);
+	background-position: 0 calc(100% - 1px);
+	background-size: auto 3px;
+	padding-bottom: 3px;
+}

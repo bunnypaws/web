@@ -1,0 +1,6 @@
+bunny winter's website - www.bunnywinter.com
+
+usage: git clone, then yarn dev for development build,
+or yarn build && yarn start for production
+
+code licensed AGPL 3.0 or later, view LICENSE for more info

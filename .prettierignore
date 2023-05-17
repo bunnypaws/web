@@ -1,0 +1,4 @@
+.yarn
+.next
+.husky
+node_modules
