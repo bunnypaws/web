@@ -20,7 +20,7 @@ import myspaceImage from "../../assets/images/myspace.jpg";
 const About = () => {
 	return (
 		<Page>
-			<div>
+			<div className="mb-4">
 				<Heading>About me, and why I do what I do</Heading>
 				<Text>
 					Hi! I&apos;m Bunny Winter, a web developer from Kansas City, MO.
@@ -61,7 +61,7 @@ const About = () => {
 					I want to give the Internet back its magic.
 				</Text>
 			</div>
-			<div>
+			<div className="mb-4">
 				<Heading>What I bring to the table</Heading>
 				<Text>
 					I&apos;m familliar and have worked with the following technologies:
@@ -109,7 +109,7 @@ const About = () => {
 					and others.
 				</Text>
 			</div>
-			<div>
+			<div className="mb-4">
 				<Heading>Let&apos;s work together</Heading>
 				<Text>
 					I&apos;m available for full-time and freelance positions at the moment
@@ -118,7 +118,7 @@ const About = () => {
 				</Text>
 			</div>
 			<Divider />
-			<div>
+			<div className="mb-4">
 				<Heading>Credits</Heading>
 				<Text>
 					Crystal ball icon from{" "}
