@@ -2,6 +2,7 @@ import clsx from "clsx";
 import React from "react";
 
 import { Metadata } from "next";
+import Image from "next/image";
 import { Page } from "../../components/layout";
 import {
 	Callout,
@@ -13,6 +14,8 @@ import {
 	UnorderedList,
 	ListItem,
 } from "../../components/blocks";
+
+import myspaceImage from "../../assets/images/myspace.jpg";
 
 const About = () => {
 	return (
@@ -38,6 +41,12 @@ const About = () => {
 					every other site was <Italic>also</Italic> a mess of half-broken
 					Coldfusion code.
 				</Text>
+				<div className="max-w-sm mx-auto mt-4 mb-6">
+					<Image
+						src={myspaceImage}
+						alt="The profile of Tom on Myspace"
+					/>
+				</div>
 				<Text>
 					Your users want speed now. They want websites to make sense to
 					everyone. They want your website to look just as amazing on a phone
