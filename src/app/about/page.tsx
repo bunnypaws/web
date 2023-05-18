@@ -2,13 +2,13 @@ import React from "react";
 
 import { Metadata } from "next";
 import { Page } from "../../components/layout";
-import { Divider, Link, Bold, Text } from "../../components/blocks";
+import { Divider, Heading, Link, Text } from "../../components/blocks";
 
 const About = () => {
 	return (
 		<Page>
 			<Divider />
-			<Text className="font-bold text-center">Credits</Text>
+			<Heading>Credits</Heading>
 			<Text>
 				Crystal ball icon from{" "}
 				<Link href="https://sensa.co/emoji">Sensa Emoji</Link>

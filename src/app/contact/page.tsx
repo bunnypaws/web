@@ -2,12 +2,12 @@ import React from "react";
 
 import { Metadata } from "next";
 import { Page } from "../../components/layout";
-import { Text } from "../../components/blocks";
+import { Heading, Text } from "../../components/blocks";
 
 const Contact = () => {
 	return (
 		<Page>
-			<Text className="font-bold text-center">Get in touch</Text>
+			<Heading>Get in touch</Heading>
 			<Text>
 				Email me at bunny [at] wintr [dot] family - I&apos;ll do my best to get
 				back to you within the day.
