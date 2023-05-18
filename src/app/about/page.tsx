@@ -96,8 +96,8 @@ const About = () => {
 				</Callout>
 				<Text>
 					In addition, through past employers, I&apos;ve worked with clients
-					including but not limited to the U.S. Soybean Export Counsil, Be Human
-					Project, Tecsys, and others.
+					including the U.S. Soybean Export Council, Be Human Project, Tecsys,
+					and others.
 				</Text>
 			</div>
 			<div>
