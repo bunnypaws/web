@@ -66,7 +66,12 @@ const About = () => {
 };
 
 export const metadata: Metadata = {
-	title: "about",
+	title: "about me",
+	description:
+		"Hi! I'm Bunny, a web developer from Kansas City, MO. " +
+		"I've been coding in various languages since I was young, " +
+		"and have become proficient in most major Typescript web " +
+		"frameworks as an adult with a specialty in React.",
 };
 
 export default About;
