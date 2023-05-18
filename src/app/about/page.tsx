@@ -1,8 +1,18 @@
+import clsx from "clsx";
 import React from "react";
 
 import { Metadata } from "next";
 import { Page } from "../../components/layout";
-import { Divider, Heading, Link, Italic, Text } from "../../components/blocks";
+import {
+	Callout,
+	Divider,
+	Heading,
+	Link,
+	Italic,
+	Text,
+	UnorderedList,
+	ListItem,
+} from "../../components/blocks";
 
 const About = () => {
 	return (
@@ -41,10 +51,61 @@ const About = () => {
 					the experience they deserve, and the experience you want them to have.
 					I want to give the Internet back its magic.
 				</Text>
+			</div>
+			<div>
+				<Heading>What I bring to the table</Heading>
 				<Text>
-					If you share these desires, I&apos;d love to hear from you. You can{" "}
-					<Link href="/contact">contact me here</Link>, and I&apos;ll get back
-					to you within a day.
+					I&apos;m familliar and have worked with the following technologies:
+				</Text>
+				<Callout className="grid grid-cols-2 gap-4">
+					<div>
+						<Heading className="!text-left">Frameworks:</Heading>
+						<UnorderedList>
+							<ListItem>React</ListItem>
+							<ListItem>React Native</ListItem>
+							<ListItem>Electron</ListItem>
+							<ListItem>Next.js</ListItem>
+							<ListItem>Vite</ListItem>
+							<ListItem>express.js</ListItem>
+						</UnorderedList>
+					</div>
+					<div>
+						<Heading className="!text-left">Languages:</Heading>
+						<UnorderedList>
+							<ListItem>Javascript</ListItem>
+							<ListItem>Typescript</ListItem>
+							<ListItem>C-family languages</ListItem>
+						</UnorderedList>
+					</div>
+					<div>
+						<Heading className="!text-left">Software:</Heading>
+						<UnorderedList>
+							<ListItem>Adobe CC</ListItem>
+							<ListItem>Figma</ListItem>
+							<ListItem>Notion</ListItem>
+						</UnorderedList>
+					</div>
+					<div>
+						<Heading className="!text-left">Devtools:</Heading>
+						<UnorderedList>
+							<ListItem>PostgreSQL</ListItem>
+							<ListItem>MariaDB</ListItem>
+							<ListItem>MongoDB</ListItem>
+						</UnorderedList>
+					</div>
+				</Callout>
+				<Text>
+					In addition, through past employers, I&apos;ve worked with clients
+					including but not limited to the U.S. Soybean Export Counsil, Be Human
+					Project, Tecsys, and others.
+				</Text>
+			</div>
+			<div>
+				<Heading>Let&apos;s work together</Heading>
+				<Text>
+					I&apos;m available for full-time and freelance positions at the moment
+					- you can <Link href="/contact">contact me</Link> and I&apos;ll get
+					back to you within a day.
 				</Text>
 			</div>
 			<Divider />
