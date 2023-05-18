@@ -45,6 +45,8 @@ const About = () => {
 					<Image
 						src={myspaceImage}
 						alt="The profile of Tom on Myspace"
+						placeholder="blur"
+						priority={true}
 					/>
 				</div>
 				<Text>

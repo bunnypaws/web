@@ -13,6 +13,7 @@ export const Header = () => {
 				alt="bunny winter"
 				width={32}
 				height={32}
+				priority={true}
 			/>
 			<Menu />
 		</div>
